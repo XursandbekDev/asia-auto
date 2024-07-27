@@ -1,13 +1,22 @@
 import Section from '@/components/section/home-section/home-section';
 import React from 'react';
-
+import HomeMain from '@/components/main/home-main/home-main';
 function Home() {
   return (
-    <section className="background-class absolute top-0 left-0 -z-10 w-full min-h-screen bg-scroll bg-no-repeat bg-cover ">
-      <Section />
-    </section>
+    <body>
+      <section className='background-class -z-30 absolute top-0 left-0 bg-no-repeat bg-cover w-full ' >
+
+        <div className=" lg:h-[880px]  w-full bg-no-repeat bg-cover">
+          <Section />
+        <HomeMain />
+        </div>
+      </section>
+      <main>
+      </main>
+    </body>
 
   );
 }
 
 export default Home;
+

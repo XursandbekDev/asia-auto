@@ -3,10 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import NavbarLogo from '@/assets/Logo/NavbarLogo.svg';
 
-interface SidebarProps {
-    isOpen: boolean;
-    onClose: () => void;
-}
+
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
     return (

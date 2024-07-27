@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 .background-class {
-    background-image: url("../assets//background-image/home-page-back.svg");
+    background-image: url("../assets/background-image/home-page-back.svg");
+}
+
+@media (max-width: 640px) {
+    /* Max-width 640px is generally for mobile screens */
+    .background-class {
+        background-image: url("../assets/background-image/mobile-home.jpg");
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+    /* .background-class {
+        background-image: url("../assets/background-image/mobile-background-image.svg");
+    } */
 }
