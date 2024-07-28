@@ -6,10 +6,10 @@ import Cars from "@/assets/background-image/MalibuSvg.svg";
 function HomeSection() {
     return (
         <div>
-            <div className="px-16 w-full">
-                <div className="container lg:block px-16 pt-32">
+            <div className=" md:px-16  w-full px-4 ">
+                <div className="container lg:block  md:px-16 md:pt-32  ">
                     <div className="flex">
-                        <div className="pl-20 pt-48">
+                        <div className="md:pl-20 md:pt-48 hidden lg:block  ">
                             <h1 className="mb-5 max-w-xs text-[40px] tracking-normal font-bold">Pasport evaziga avto kredit</h1>
                             <p className="mb-10 max-w-sm text-base font-normal text-gray-600 leading-relaxed">
                                 Bizning 'Asia Auto' avtosalonida eng zamonaviy avtomobillar uchun avtokreditlar beriladi
@@ -56,11 +56,11 @@ function HomeSection() {
                     <div className="container block lg:hidden">
                         <div className="flex h-screen flex-col justify-between pb-20 pt-32">
                             <div className="flex flex-col gap-5">
-                                <h2 className="text-3xl font-extrabold text-white">Pasport evaziga avto kredit</h2>
-                                <p className="text-base font-normal text-gray-300">Bizning 'Asia Auto' avtosalonida eng zamonaviy avtomobillar uchun avtokreditlar beriladi</p>
+                                <h2 className="text-3xl leading-none font-bold text-white">Pasport evaziga avto kredit</h2>
+                                <p className="text-sm font-normal text-gray-400">Bizning 'Asia Auto' avtosalonida eng zamonaviy avtomobillar uchun avtokreditlar beriladi</p>
                             </div>
                             <div className="flex justify-center">
-                                <button className="w-48 justify-center rounded-full bg-white px-8 py-4 text-base font-normal">
+                                <button className=" md:w-48 justify-center rounded-full bg-white px-8 py-4 text-base font-normal">
                                     Biz bilan bog‘lanish
                                 </button>
                             </div>

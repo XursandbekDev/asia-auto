@@ -1,11 +1,12 @@
 import React from 'react'
 
 function HomeMain() {
+
     return (
-        <div className=" lg:px-32 ">
-            <div className="gap-xl container mt-[25px] grid md:grid-cols-3">
+        <div className=" lg:px-32 pt-10 ">
+            <div className="gap-14 container grid lg:grid-cols-3 justify-center items-start ">
                 {/* <!-- Card 1 --> */}
-                <div className="bg-white space-y-4 shadow-md p-xl rounded-lg floating-card-0">
+                <div className="bg-white space-y-4  shadow-xl p-5 rounded-xl lg:mt-56">
                     <div className="grid place-content-center text-center">
                         <div className="space-y-6">
                             <svg width="54" height="71" viewBox="0 0 54 71" xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="mx-auto text-red-600">
@@ -22,7 +23,7 @@ function HomeMain() {
                 </div>
 
                 {/* <!-- Card 2 --> */}
-                <div className="bg-white space-y-4 shadow-md p-xl rounded-lg floating-card-1">
+                <div className="bg-white space-y-4 shadow-xl p-5 rounded-xl lg:mt-32 ">
                     <div className="grid place-content-center text-center">
                         <div className="space-y-6">
                             <svg width="64" height="60" viewBox="0 0 64 60" xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="mx-auto text-red-600">
@@ -39,7 +40,7 @@ function HomeMain() {
                 </div>
 
                 {/* <!-- Card 3 --> */}
-                <div className="bg-white space-y-4 shadow-md p-xl rounded-lg floating-card-2">
+                <div className="bg-white space-y-4 shadow-xl p-5 rounded-xl lg:mt-12  ">
                     <div className="grid place-content-center text-center">
                         <div className="space-y-6">
                             <svg width="72" height="65" viewBox="0 0 72 65" xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="mx-auto text-red-600">
