@@ -35,11 +35,11 @@ function Footer() {
             <div className='flex flex-col items-start gap-3 text-white   ' >
                 <div className='flex gap-4 ' >
                     <TbPhoneCall className='text-white text-2xl' />
-                    <Link href={"tel:"} >+998 (55) 500-91-91  </Link>
+                    <Link href={"tel:+998555009191"} >+998 (55) 500-91-91  </Link>
                 </div>
                 <div className='flex gap-4 ' >
                     <TbPhoneCall className='text-white text-2xl' />
-                    <Link href={"tel:"} >+998 (55) 500-91-91  </Link>
+                    <Link href={"tel:+998712019191"} >+998 (71) 201-91-91  </Link>
                 </div>
                 <div className='flex gap-4 ' >
                     <CgMail className='text-white text-2xl' />

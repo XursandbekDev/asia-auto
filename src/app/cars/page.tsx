@@ -1,8 +1,10 @@
 import React from 'react'
-
+import CarsAll from '@/components/cars-all/cars-all'
 function Cars() {
     return (
-        <div>Cars</div>
+        <div>
+            <CarsAll />
+        </div>
     )
 }
 

@@ -39,7 +39,7 @@ const Header: React.FC = () => {
 
     return (
         <>
-            <header className={`top-0 w-full py-4 transition-all ${isScrolled ? 'fixed top-0 w-full bg-white bg-opacity-50 shadow-md backdrop-blur-xl' : 'bg-transparent'}`}>
+            <header className={`top-0 w-full py-4  bg-transparent transition-all ${isScrolled ? 'fixed top-0 w-full bg-white bg-opacity-50 shadow-md backdrop-blur-xl' : 'bg-transparent'}`}>
                 <nav className="container mx-auto flex items-center justify-between gap-10 px-4 md:px-8 lg:px-20">
                     {/* Mobile menu button */}
                     <div className="flex flex-grow justify-start lg:hidden">
