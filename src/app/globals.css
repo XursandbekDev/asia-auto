@@ -12,15 +12,13 @@
         background-image: url("../assets/background-image/mobile-home.jpg");
         object-fit: cover;
         background-repeat: no-repeat;
-        height: 680px;
+        height: 100%;
     }
     /* .background-class {
         background-image: url("../assets/background-image/mobile-background-image.svg");
     } */
 }
-.dcc{
-    color: #ff0000;
-}
+
 /* <div class="lines">
   <div class="line"></div>
   <div class="line"></div>

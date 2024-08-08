@@ -4,7 +4,7 @@ function HomeMain() {
 
     return (
         <div className=" lg:px-32 pt-10 ">
-            <div className="gap-14 container grid lg:grid-cols-3 justify-center items-start ">
+            <div className="gap-14 container bg-transparent grid lg:grid-cols-3 justify-center items-start ">
                 {/* <!-- Card 1 --> */}
                 <div className="bg-white space-y-4  shadow-xl p-5 rounded-xl lg:mt-56">
                     <div className="grid place-content-center text-center">

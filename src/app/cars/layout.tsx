@@ -16,7 +16,6 @@ export default function CarsLayout({
 }>) {
     return (
         <section>
-            <p>Cars sahifa</p>
             {children}
         </section>
 

@@ -1,17 +1,17 @@
 "use client";
-import React from "react";
+import React, { FC } from 'react';
 
-const AnimatedBackground = () => {
-    return (
-        <div className="absolute -z-30 w-full h-[2300px] overflow-hidden bg-slate-300">
-            <div className="absolute top-0 left-0 right-0 w-[100vw] h-full">
-                <div className="absolute top-0 left-[40%] w-[2px] h-full bg-white/10 animate-drop"></div>
-                <div className="absolute top-0 left-[60%] w-[2px] h-full bg-white/10 animate-drop delay-2000"></div>
-                <div className="absolute top-0 left-[80%] w-[2px] h-full bg-white/10 animate-drop delay-2500"></div>
-                {/* Yangi suzuvchi div */}
-                <div className="absolute top-0 left-[20%] w-[2px] h-full bg-white/10 animate-drop delay-3000"></div>
-            </div>
-            <style jsx>{`
+
+const AnimatedBackground: FC<AnimatedBackgroundProps> = ({ children }) => {
+  return (
+    <div className="absolute top-0 left-0 -z-30 overflow-hidden bg-slate-300 bg-cover bg-center bg-no-repeat h-full w-full">
+      <div className="absolute top-0 left-0 right-0 w-[100vw] h-full">
+        <div className="absolute top-0 left-[40%] w-[2px] h-full bg-white/10 animate-drop"></div>
+        <div className="absolute top-0 left-[60%] w-[2px] h-full bg-white/10 animate-drop delay-2000"></div>
+        <div className="absolute top-0 left-[80%] w-[2px] h-full bg-white/10 animate-drop delay-2500"></div>
+        <div className="absolute top-0 left-[20%] w-[2px] h-full bg-white/10 animate-drop delay-3000"></div>
+      </div>
+      <style jsx>{`
         @keyframes drop {
           0% {
             top: -50%;
@@ -46,8 +46,9 @@ const AnimatedBackground = () => {
           animation-delay: 8s;
         }
       `}</style>
-        </div>
-    );
+      {children}
+    </div>
+  );
 };
 
 export default AnimatedBackground;

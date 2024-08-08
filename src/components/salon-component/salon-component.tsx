@@ -66,6 +66,12 @@ function SalonComponent() {
                         Biz bilan bog‘lanish
                     </Link>
                 </button>
+                <button className='rounded-[27px] bg-white px-[30px] py-[15px] shadow-sm' >
+                    <Link href={'/contact'}  className=' font-sans text-base font-normal text-black'  >
+                        
+                    </Link>
+
+                </button>
             </div>
         </div>
     );

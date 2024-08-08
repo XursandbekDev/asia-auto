@@ -5,14 +5,16 @@ import HomeCars from '@/components/cars-map/home-cars';
 // import LogoAnimation from "@/components/logo-animation/logo-animation"
 import CarouselLogo from '@/components/carousel-logo/carousel-logo';
 import Footer from '@/components/footer/footer';
+import AnimatedBackground from '@/components/animated-background/animated-background';
 function Home() {
   return (
     <body>
       <section className='background-class -z-30 absolute top-0 left-0 bg-no-repeat bg-cover w-full   ' >
-
+      
         <div className=" lg:h-[880px]  w-full bg-no-repeat bg-cover">
           <Section />
           <HomeMain />
+          {/* <AnimatedBackground/> */}
           <HomeCars />
           <CarouselLogo />
           <Footer/>
